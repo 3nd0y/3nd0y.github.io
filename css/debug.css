@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 .container-gw {
 	background-image: url("../images/bg.jpg");
 	/*background-attachment: fixed;*/
@@ -5,6 +9,24 @@
 	background-size: cover;
 	width:inherit;
 	height:70%;
+	/*margin-top: -150px;*/
+}
+
+.caption {
+	font-family: 'Roboto';
+	font-size: 20px;
+	padding-left: 20px;
+	margin-bottom: -20px;
+	color: #fff;
+}
+.secaption {
+	font-family: 'Montserrat';
+	font-size: 80px;
+	color: #fff;
+}
+.anim {
+	height: 400px;
+	width: auto;
 }
 
 .navbar-dark {
@@ -20,3 +42,12 @@
 	width: inherit;
 	height: 800px;
 }
+
+.links line {
+  stroke: #fff;
+}
+
+.nodes circle {
+  pointer-events: all;
+  stroke: none;
+  stroke-width: 40px;
