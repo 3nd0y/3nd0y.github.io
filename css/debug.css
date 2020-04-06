@@ -1,0 +1,22 @@
+.container-gw {
+	background-image: url("../images/bg.jpg");
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:inherit;
+	height:70%;
+}
+
+.navbar-dark {
+	background-color: rgba(122,122,122,0.7)
+}
+
+.nav-link {
+	color: rgba(250,250,250,.8);
+}
+
+.mask-grey {
+	background-color: rgba(122,122,122,0.7);
+	width: inherit;
+	height: 800px;
+}
