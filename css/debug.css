@@ -15,7 +15,7 @@ html body {
 }
 
 .mask-grey {
-	background-color: rgba(122,122,122,0.7);
+	background-color: rgba(10,10,10,0.8);
 	width: inherit;
 	height: 100%;
 }
@@ -23,6 +23,7 @@ html body {
 .caption {
 	font-family: 'Roboto';
 	font-size: 20px;
+	padding-top: 50px;
 	padding-left: 20px;
 	margin-bottom: -20px;
 	color: #fff;
@@ -38,7 +39,7 @@ html body {
 }
 
 .navbar-dark {
-	background-color: rgba(122,122,122,0.7)
+	background-color: rgba(10,10,10,0.8)
 }
 
 .nav-link {
@@ -53,6 +54,12 @@ html body {
   pointer-events: all;
   stroke: none;
   stroke-width: 40px;
+}
+
+.bismillah {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: ivory;
+	text-align: center;
 }
 
 .bgwhite-0 {
