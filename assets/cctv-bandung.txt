@@ -1,0 +1,17 @@
+Buah Batu
+http://45.118.114.26/camera/Buahbatu.m3u8
+
+Gede Bage
+http://45.118.114.26/camera/Gedebage.m3u8
+
+Batununggal
+http://45.118.114.26:80/camera/Batununggal.m3u8
+
+Moch Toha
+http://45.118.114.26:80/camera/MochToha.m3u8
+
+Cibaduyut
+http://45.118.114.26:80/camera/Cibaduyut.m3u8
+
+Kopo
+http://45.118.114.26/camera/Kopo.m3u8

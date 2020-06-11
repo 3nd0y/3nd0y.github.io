@@ -1,3 +1,9 @@
+@media (min-width: 720px) {
+	.menu-top {
+
+	}
+}
+
 html body {
 	height: 100%;
 }
@@ -30,12 +36,18 @@ html body {
 }
 .secaption {
 	font-family: 'Montserrat';
-	font-size: 80px;
+	font-size: 70px;
 	color: #fff;
 }
 .anim {
 	height: 400px;
 	width: auto;
+}
+
+#navbarNav {
+	border-width: 2px;
+	border-color: ivory;
+	right: 1%;
 }
 
 .navbar-dark {
@@ -57,7 +69,7 @@ html body {
 }
 
 .bismillah {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Great Vibes', cursive;
 	color: ivory;
 	text-align: center;
 }
@@ -87,6 +99,12 @@ html body {
 	height: 50px;
 	float: right;
 	clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.responsive-bottom {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
 }
 
 .break {
