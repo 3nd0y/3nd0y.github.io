@@ -8,10 +8,21 @@ html body {
 	height: 100%;
 }
 
+#home {
+	background-image: url("../images/bg.jpg");
+}
+
+#portfolio {
+
+}
+
+#history {
+	background-color: rgba(10,10,10,0.8);
+}
+
 .container-gw {
 	position: relative;
-	background-image: url("../images/bg.jpg");
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width:inherit;
@@ -20,25 +31,64 @@ html body {
 	/*margin-top: -150px;*/
 }
 
+.container-sec {
+	position: 
+	width: inherit;
+	height: 100vh;
+}
+
 .mask-grey {
 	background-color: rgba(10,10,10,0.8);
 	width: inherit;
 	height: 100%;
 }
 
+.responsive-bottom {
+	position: absolute;
+	bottom: 15%;
+	width: 100%;
+	height: 35%;
+}
+
 .caption {
 	font-family: 'Roboto';
-	font-size: 20px;
-	padding-top: 50px;
+	font-size: 2em;
+	padding-top: 0px;
 	padding-left: 20px;
 	margin-bottom: -20px;
 	color: #fff;
 }
+
 .secaption {
 	font-family: 'Montserrat';
-	font-size: 70px;
+	font-size: 6em;
 	color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+	.secaption {
+		font-size: 5em;
+	}
+}
+
+@media screen and (max-height: 560px) {
+	.caption {
+		font-size: 1em;
+	}
+	.secaption {
+		font-size: 4em;
+	}
+}
+
+.bismillah {
+	font-family: 'Great Vibes', cursive;
+	color: ivory;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+}
+
 .anim {
 	height: 400px;
 	width: auto;
@@ -68,12 +118,6 @@ html body {
   stroke-width: 40px;
 }
 
-.bismillah {
-	font-family: 'Great Vibes', cursive;
-	color: ivory;
-	text-align: center;
-}
-
 .bgwhite-0 {
 	/* background-color: #fff; */
 	position: absolute;
@@ -87,7 +131,7 @@ html body {
 	/*background-image: linear-gradient(to bottom left, transparent 45%, white 50%);*/
 	background-color: #fff;
 	width: 50%;
-	height: 50px;
+	height: 51px;
 	float: left;
 	clip-path: polygon(0 0%, 80% 0, 100% 100%, 0% 100%);
 }
@@ -96,15 +140,9 @@ html body {
 	/*background-image: linear-gradient(to bottom right, transparent 45%, white 50%);*/
 	background-color: #fff;
 	width: 50%;
-	height: 50px;
+	height: 51px;
 	float: right;
 	clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-.responsive-bottom {
-	position: absolute;
-	bottom: 50px;
-	width: 100%;
 }
 
 .break {
@@ -114,4 +152,33 @@ html body {
 .img-portfolio {
 	height: 150px;
 	width: auto;
+}
+
+.image-portfolio-mobile {
+	height: 500px;
+	width: auto;
+}
+
+#portfolio {
+	height: 100vh;
+}
+
+#article {
+	font-size: 14px;
+	font-family: roboto;
+}
+
+#mobile {
+	text-align: center;
+}
+
+.nav-arrow {
+	position: fixed;
+	bottom: 1%;
+	width: 100%;
+}
+
+.arrow-down {
+	height: 20px;
+	width: 50px;
 }
